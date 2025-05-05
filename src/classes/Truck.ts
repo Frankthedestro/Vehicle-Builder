@@ -5,7 +5,7 @@ import Car from './Car.js';
 import Wheel from './Wheel.js';
 import AbleToTow from '../interfaces/AbleToTow.js';
 
-// TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
+// The Truck class should extend the Vehicle class and should implement the AbleToTow interface
 class Truck extends Vehicle implements AbleToTow{
   // Declare properties of the Truck class and is a subclass of Vehicle that can impliment AbleToTow.
   // The properties include vin, color, make, model, year, weight, top speed, wheels, and towing capacity.
